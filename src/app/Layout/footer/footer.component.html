@@ -1,72 +1,75 @@
 <!-- cta start -->
 <section class="cta-section">
   <div class="container text-center">
-    <a data-toggle="modal" data-target="#quoteModal" href="#" class="btn btn-primary quote-btn">Get a Quote</a>
+    <!-- <a data-toggle="modal" data-target="#quoteModal" href="#" class="btn btn-primary quote-btn">Get a Quote</a> -->
 
-<!-- Modal -->
-<div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title" id="quoteModalLabel">Request a rate for the shipping of your goods.</h3>
-      </div>
-      <div class="modal-body">
-    <form id="contactForm" action="sendemail.php" method="POST">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-              <label for="name">Name</label>
-              <input id="name" name="name" type="text" class="form-control"  required="" placeholder="">
+    <!-- Modal -->
+    <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="quoteModalLabel">Request a rate for the shipping of your goods.</h3>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="company">Company Name</label>
-            <input id="company" name="company" type="text" class="form-control" placeholder="">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input id="phone" name="phone" type="text" class="form-control" placeholder="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="email">Email address</label>
-            <input id="email" name="email" type="email" class="form-control" required="" placeholder="">
-          </div>
-        </div>
-      </div>
+          <div class="modal-body">
+            <form id="contactForm" action="sendemail.php" method="POST">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" class="form-control" required="" placeholder="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="company">Company Name</label>
+                    <input id="company" name="company" type="text" class="form-control" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="text" class="form-control" placeholder="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input id="email" name="email" type="email" class="form-control" required="" placeholder="">
+                  </div>
+                </div>
+              </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="city">City Name</label>
-            <input id="city" name="city" type="text" class="form-control" placeholder="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="subject">Subject</label>
-            <input id="subject" name="subject" type="text" class="form-control" required="" placeholder="">
-          </div>
-        </div>
-      </div>
-      <div class="form-group text-area">
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message" class="form-control" rows="6" required="" placeholder=""></textarea>
-      </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="city">City Name</label>
+                    <input id="city" name="city" type="text" class="form-control" placeholder="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input id="subject" name="subject" type="text" class="form-control" required="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group text-area">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" class="form-control" rows="6" required=""
+                  placeholder=""></textarea>
+              </div>
 
-      <button type="submit" class="btn btn-primary">Send Message</button>
-    </form>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
   </div><!-- /.container -->
 </section><!-- /.cta-section -->
@@ -75,72 +78,78 @@
 
 <!-- footer-widget-section start -->
 <section class="footer-widget-section section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-md-offset-1 col-sm-4">
-                <div class="footer-widget">
-                    <h3>Place &amp; Contact</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-md-offset-1 col-sm-4">
+        <div class="footer-widget">
+          <h3>Place &amp; Contact</h3>
 
-                    <address>
-                      384 Maple Circle<br>
-                      Simi Valley, Nevada 47424<br>
+          <address>
+            <i class="fa fa-envelope"></i> <a href="mailto:csjayeshthummar@gmail.com"> csjayeshthummar@gmail.com</a><br>
+            <i class="fa fa-phone"></i> <a href="tel:9662650287"> +91 9662650287</a> <br>
+            <i class="fa fa-building"></i> 227, Stadium House,<br>
+            Nr. Das Khaman, Stadium Cross Road,<br>
+            Navrangpura, Ahmedabad - 380009<br>
+            India
+            <br>
+            <!-- Google Map Modal Trigger -->
+            <button type="button" class="modal-map" data-toggle="modal" data-target="#cssMapModal">Location Map</button>
 
-                      <!-- Google Map Modal Trigger -->
-                      <button type="button" class="modal-map" data-toggle="modal" data-target="#cssMapModal">Location  Map</button>
+          </address>
 
-                      <span class="tel">(554) 616-9926</span>
-                    </address>
+          <!-- Modal -->
+          <div class="modal fade" id="cssMapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Our Location</h4>
+                </div>
+                <div class="modal-body">
 
+                  <div id="googleMap"></div>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="cssMapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Our Location</h4>
-                          </div>
-                          <div class="modal-body">
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- End Modal -->
+        </div><!-- /.footer-widget -->
+      </div><!-- /.col-md-4 -->
 
-                            <div id="googleMap"></div>
-                            
-                          </div>
-                        </div><!-- /.modal-content -->
-                      </div><!-- /.modal-dialog -->
-                    </div><!-- End Modal -->
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-4 -->
+      <div class="col-md-3 col-sm-4">
+        <div class="footer-widget">
+          <h3>About J V Thummar & Associates</h3>
 
-            <div class="col-md-3 col-sm-4">
-                <div class="footer-widget">
-                    <h3>About Transport</h3>
+          <ul>
+            <li class="dropdown active"><a href="/">Home</a></li>
+            <li><a href="ourservices">Our Services</a></li>
+            <li><a href="about-us">About Us</a></li>
+            <li><a href="usefulllinks">UseFull Link</a></li>
+            <li><a href="contact-us">Contact Us</a></li>
+            <li><a href="blogs">Blogs</a></li>
 
-                    <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="service.html">Service</a></li>
-                        <li><a href="our-people.html">Our people</a></li>
-                        <li><a href="career.html">Career</a></li>
-                        <li><a href="faq.html">FAQ Page</a></li>
-                    </ul>
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-4 -->
+          </ul>
+        </div><!-- /.footer-widget -->
+      </div><!-- /.col-md-4 -->
 
-            <div class="col-md-4 col-sm-4">
-                <div class="footer-widget">
-                    <h3>Stay in Touch</h3>
-                    <p>Enter your email address to receive news &amp; offers from us</p>
+      <div class="col-md-4 col-sm-4">
+        <div class="footer-widget">
+          <h3>Stay in Touch</h3>
+          <p>Enter your email address to receive news &amp; offers from us</p>
 
-                    <form class="newsletter-form">
-                        <div class="form-group">
-                            <label class="sr-only" for="InputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="InputEmail1" placeholder="Your email address">
-                            <button type="submit" class="">Send &nbsp;<i class="fa fa-angle-right"></i></button>
-                        </div>
-                    </form>		        				
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-4 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
+          <form class="newsletter-form">
+            <div class="form-group">
+              <label class="sr-only" for="InputEmail1">Email address</label>
+              <input type="email" class="form-control" id="InputEmail1" placeholder="Your email address">
+              <button type="submit" class="">Send &nbsp;<i class="fa fa-angle-right"></i></button>
+            </div>
+          </form>
+        </div><!-- /.footer-widget -->
+      </div><!-- /.col-md-4 -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
 </section><!-- /.cta-section -->
 <!-- footer-widget-section end -->
 
@@ -151,12 +160,15 @@
       <ul>
         <li><a href="#">Privacy &amp; Cookies</a></li>
         <li><a href="#">Terms &amp; Conditions</a></li>
-        <li><a href="#">Accessibility</a></li>
+        <!-- <li><a href="#">Accessibility</a></li> -->
       </ul>
     </div>
 
     <div class="copyright-info">
-      <span>Copyright © 2015 Unship. All Rights Reserved. Designed by <a href="https://uicookies.com">uiCookies</a><br> Proudly powered by <a href="http://www.w3schools.com/html/html5_intro.asp">HTML5</a> and <a href="getbootstrap.com">Bootstrap3</a></span>
+      <span>Copyright © 2020 J V Thummar & Associates. All Rights Reserved.
+        <br>Developed by
+        <a href="https://facebook.com">BTSoftech</a>
+      </span>
     </div>
   </div><!-- /.container -->
 </footer>
