@@ -473,7 +473,7 @@ jQuery(function ($) {
     }());
 
     //Modal map
-    (function () {
+   /* (function () {
 
 
     if ($('#googleMap').length > 0) {
@@ -509,7 +509,7 @@ jQuery(function ($) {
 
        };
 
-    }());
+    }());*/
 
 
 

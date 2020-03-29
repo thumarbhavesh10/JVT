@@ -29,6 +29,15 @@ const routes: Routes = [
   { path: 'about-us', loadChildren: './about-us/about-us.module#AboutUsModule' },
   { path: 'usefulllinks', loadChildren: './usefulllinks/usefulllinks.module#UsefulllinksModule' },
   { path: 'contact-us', loadChildren: './contact-us/contact-us.module#ContactUsModule' },
+  // { path: '**', loadChildren: './notfound/notfound.module#notfoundModule' },
+  {
+    path: 'not-found',
+    loadChildren: './not-found/not-found.module#NotFoundModule'
+  },
+  {
+    path: '**',
+    redirectTo: 'not-found'
+  }
   // { path: 'blogs', loadChildren: './blogs/blogs.module#BlogsModule' },
   
   // {
