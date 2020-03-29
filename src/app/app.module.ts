@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 //import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -7,12 +7,31 @@
 </ng-progress> -->
 
 
-  <!-- <app-sidebar *ngIf="showSidebar" fxLayout="column" fxFlex="300px"></app-sidebar> -->
-  <div id="st-container" class="st-container">
-    <div class="st-pusher">
-        <div class="st-content">
-            <router-outlet></router-outlet>
-      </div>
-     </div>
+<!-- <app-sidebar *ngIf="showSidebar" fxLayout="column" fxFlex="300px"></app-sidebar> -->
+<div id="st-container" class="st-container">
+  <div class="st-pusher">
+    <div class="st-content">
+      <router-outlet></router-outlet>
     </div>
+  </div>
+
+
+  <!-- OFF CANVAS MENU -->
+  <div class="offcanvas-menu offcanvas-effect">
+    <div class="offcanvas-wrap">
+      <div class="off-canvas-header">
+        <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
+          id="off-canvas-close-btn">&times;</button>
+      </div>
+      <ul id="offcanvasMenu" class="list-unstyled visible-xs visible-sm">
+        <li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="ourservices">Our Services</a></li>
+        <li><a href="about-us">About Us</a></li>
+        <li><a href="usefulllinks">UseFull Link</a></li>
+        <li><a href="contact-us">Contact Us</a></li>
+      </ul>
+    </div>
+  </div><!-- .offcanvas-menu -->
+  
+</div>
 <app-footer></app-footer>

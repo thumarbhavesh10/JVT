@@ -7,7 +7,7 @@ import { ContactUsComponent } from './contact-us.component';
 @NgModule({
   imports: [
     CommonModule,
-    ContactUsRoutingModule
+    ContactUsRoutingModule,
   ],
   declarations: [ContactUsComponent]
 })
